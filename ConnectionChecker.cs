@@ -15,7 +15,7 @@ namespace Contact_Book
             try
             { 
                 MySqlConnection conn = new MySqlConnection();
-                conn.ConnectionString = "server=localhost;user=root;database=contactbook;port=3306;password=";
+                conn.ConnectionString = "server=localhost;user=tanulo;database=contactbook;port=3306;password=tanulo";
                    
                 Console.WriteLine("Checking connection with MySQL server...");
                 t.Watch = System.Diagnostics.Stopwatch.StartNew();

@@ -43,9 +43,12 @@ namespace Contact_Book
             {
                 Console.WriteLine(ex.ToString());
             }
+
             Executer.Execute(a);
             Console.WriteLine("Do you want to add more contacts to the table?\nPress '0' to exit, or press '1' to add more contacts!");
+
             var again = MoreContacts.ThereWeGoAgain();
+
             if(again == 1)
             {
                 goto thereWeGoAgain;
